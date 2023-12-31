@@ -1,0 +1,9 @@
+.message{
+    font-size: 20dp;
+    color: cadetblue;
+}
+
+.container{
+    margin-left: 40dp;
+    orientation: horizontal;
+}
