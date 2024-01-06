@@ -3,7 +3,89 @@
     color: cadetblue;
 }
 
-.container{
-    margin-left: 40dp;
-    orientation: horizontal;
+header{
+    
+    background: white;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+footer{
+
+    background: black;
+    color: white; 
+    height: 40px;
+    padding: 20px; 
+}
+
+
+
+section{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    color: rgb(56, 55, 55);
+    height: 180px;
+}
+
+body{
+    margin: 0;
+    background: gray;
+    padding: 0;
+
+}
+
+.nav_links{
+    list-style: none;
+    
+}
+
+.nav_links a{
+    transition: all 0.3s ease 0;
+    
+}
+ 
+li{
+    display: inline-block;
+    margin: 0 20px 0 0;
+    text-decoration: none;
+    
+}
+
+li:hover{
+    color: gold;
+}
+
+
+
+
+button{
+    padding: 9px 25px;
+    background-color: black;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0;
+    font-size: 16px;
+    color: gray;
+    margin-top: 15px;
+}
+
+button:hover{
+    color: gold;
+}
+
+.logo{
+    width: 100px;
+    height: 80px;
+    margin-left: 20px;
+}
+
+.main_logo{
+    width: 100px;
+    height: 80px;
+    zoom: 20px;
 }

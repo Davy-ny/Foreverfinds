@@ -8,7 +8,7 @@
         {%load static%}
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Index</title>
+        <title>kitchen_dining</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="{% static 'css/style.css' %}">
@@ -40,9 +40,7 @@
         <script src="" async defer></script>
 
         <header>
-            <div class="logo">
-                <img class="main_logo" src="{% static "img/FOREVER FINDS FURNITURE LOGO - FINAL 1.jpg" %}" alt="" >
-            </div>
+            <h1>Dining</h1>
             <nav>
                 <ul>
                     <li><a href="{% url 'living' %}">Living Room</a></li>
@@ -53,11 +51,18 @@
                     <li><a href="{% url "contact"%}">Contact Us</a></li>
                 </ul>
             </nav>
-
-            <a href=""><button>About Us</button></a>
-
         </header>
-        
+        <section>
+            <div><a><img src="{% static 'img/IMG_20210327_173859_504.jpg' %}" alt=""></a><br>
+            <strong>A</strong>
+        </div>
+            <div><a><img src="{% static 'img/IMG_20210327_173859_504.jpg' %}" alt=""></a><br>
+                <strong>B</strong>
+            </div>
+            <div><a><img src="{% static 'img/IMG_20210327_173859_504.jpg' %}" alt=""></a><br>
+                <strong>C</strong>
+            </div>
+        </section>
         <section>section-two</section>
         <footer>footer</footer>
     </body>
