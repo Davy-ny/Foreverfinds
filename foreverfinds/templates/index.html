@@ -39,25 +39,65 @@
         </div> -->
         <script src="" async defer></script>
 
-        <header>
-            <div class="logo">
-                <img class="main_logo" src="{% static "img/FOREVER FINDS FURNITURE LOGO - FINAL 1.jpg" %}" alt="" >
+        <header class="info_header">
+            
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-sm-4 a">
+                        <p>Ruiru: 0718189714</p>
+                    </div>
+                    
+                    <div class="col-sm-4 b">
+                        <strong><h4>LET US TRANSFORM YOUR SPACE</h4></strong>
+                    </div>
+                    
+                    <div class="col-sm-4 c">
+                        <a href=""><img src="{% static "img/cart2.jpeg" %}"></a>
+                    </div>
+
+                </div>
             </div>
-            <nav>
+            
+        </header>  
+            
+
+        <header class="banner">
+            <img src="{% static "img/FOREVER FINDS FURNITURE LOGO - FINAL 1.jpg" %}" alt="" >
+        </header> 
+
+        <header class="nav_header">
+            <div class="logo">
+                <h2>FOREVER FINDS</h2> 
+                
+            </div>
+            <nav class="nav_links">
                 <ul>
-                    <li><a href="{% url 'living' %}">Living Room</a></li>
-                    <li><a href="{% url "bedroom"%}">Bedroom</a></li>
-                    <li><a href="{% url "homeoffice"%}">Home Office</a></li>
-                    <li><a href="{% url "kitchen_dining"%}">Kitchen And Dining Room</a></li>
-                    <li><a href="{% url "Outdoor"%}">Outdoor</a></li>
-                    <li><a href="{% url "contact"%}">Contact Us</a></li>
+                    <strong><li><a href="{% url 'living' %}">Living Room</a></li></strong>
+                    <strong><li><a href="{% url "bedroom"%}">Bedroom</a></li></strong>
+                    <strong><li><a href="{% url "homeoffice"%}">Home Office</a></li></strong>
+                    <strong><li><a href="{% url "kitchen_dining"%}">Kitchen And Dining Room</a></li></strong>
+                    <strong><li><a href="{% url "Outdoor"%}">Outdoor</a></li></strong>
+                    <strong><li><a href="{% url "contact"%}">Contact Us</a></li></strong>
                 </ul>
             </nav>
-
-            <a href=""><button>About Us</button></a>
+            
+            <a href=""><button>Log in</button></a>
 
         </header>
+
         
+        
+
+        
+
+        <section class="section_one">
+            <div><a><img src="{% static 'img/IMG_20210327_173859_504.jpg' %}" alt=""></a><br>
+            <strong>A</strong>
+        </div>
+            <div><a><img src="{% static 'img/IMG_20210327_173859_504.jpg' %}" alt=""></a></div>
+            <div><a><img src="{% static 'img/IMG_20210327_173859_504.jpg' %}" alt=""></a></div>
+        </section>
         <section>section-two</section>
         <footer>footer</footer>
     </body>

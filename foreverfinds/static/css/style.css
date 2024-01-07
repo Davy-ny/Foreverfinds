@@ -1,17 +1,71 @@
-.message{
-    font-size: 20dp;
-    color: cadetblue;
+.banner{
+    height: 450px;
+    
 }
 
-header{
+.banner img{
+    height: 100%;
+    width: 100%;
+}
+
+.nav_header{
     
-    background: white;
+    background: rgb(233, 232, 232);
     height: 80px;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    
     
 }
+
+
+.info_header{
+    height: 40px;
+    width: 100%;
+    clear: both;
+    margin-top: 80px;
+    background: #f7f6f6;
+    
+}
+
+.a{
+    float: left;
+    margin-left: 10px;
+}
+
+.b{
+    float: left;
+    margin-left: 320px;
+
+}
+
+.c{
+    float: left;
+    margin-left: 500px;
+}
+
+
+.info_header p{
+font-family: Arial, Helvetica, sans-serif;
+font-size: 15px;
+}
+
+.info_header h4{
+    margin: 10px;
+}
+
+
+.info_header img{
+    height: 40px;
+    width: 50px;
+}
+
+
 
 footer{
 
@@ -22,40 +76,38 @@ footer{
 }
 
 
-
-section{
-    display: flex;
-    flex-direction: row;
-    background: white;
-    color: rgb(56, 55, 55);
-    height: 180px;
-}
-
 body{
     margin: 0;
-    background: gray;
+    background: white;
     padding: 0;
 
 }
 
 .nav_links{
-    list-style: none;
+    display: flex;
     
 }
 
-.nav_links a{
-    transition: all 0.3s ease 0;
-    
-}
- 
-li{
-    display: inline-block;
+.nav_links li a{
+    transition: all 0.3ms ease 0;
     margin: 0 20px 0 0;
     text-decoration: none;
+
+}
+
+li{
+    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
     
 }
 
-li:hover{
+.nav_links ul{
+    list-style-type: none;
+}
+ 
+
+.nav_links li a:hover{
     color: gold;
 }
 
@@ -69,9 +121,9 @@ button{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0;
-    font-size: 16px;
+    font-size: 15px;
     color: gray;
-    margin-top: 15px;
+    
 }
 
 button:hover{
@@ -79,13 +131,39 @@ button:hover{
 }
 
 .logo{
-    width: 100px;
+    width: 200px;
     height: 80px;
-    margin-left: 20px;
+    
+    
 }
 
-.main_logo{
+.logo h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+.logo h5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    float: left;
+}
+
+.section_one{
+    display: flex;
+    flex-direction: row;
+    height: 250px;
+}
+
+.section_one div{
+    margin: 10px 20px;
     width: 100px;
+    height: 100px;
+    margin: auto;
+    background: gray;
+}
+
+.section_one img{
+    width: 80px;
     height: 80px;
-    zoom: 20px;
+    padding: 10px 10px;
 }
